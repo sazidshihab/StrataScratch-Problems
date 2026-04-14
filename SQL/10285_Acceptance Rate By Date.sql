@@ -37,3 +37,5 @@ order by a.date)
 select a.date,b.receive/a.sent from cte a join cte1 b
 on a.date=b.date;
 
+
+
